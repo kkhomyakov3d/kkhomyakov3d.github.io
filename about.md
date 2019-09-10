@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Computer graphics fan.  
+Main interests include rendering, performance, engines and games architecture.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[konstantinkhomyakov3d@gmail.com](konstantinkhomyakov3d@gmail.com)
