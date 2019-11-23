@@ -3,7 +3,7 @@ layout: post
 title: Open-Source Real-Time Rendering Engines and Libs
 ---
 
-Here is a small collection of open source engines and helper libs related to real-time rendering I've found for self-learning purposes. No particular order, veterans of the industry mixed with hobby projects. Maybe useful for someone looking for graphics programming sources of inspiration :feelsgood:
+Here is a small collection of open source engines and helper libs related to real-time rendering I've found for self-learning purposes. No particular order, veterans of the industry mixed with hobby projects. May be useful for someone looking for graphics programming sources of inspiration :feelsgood:
 
 The list will be updated from time to time, any additions are welcome.
 
