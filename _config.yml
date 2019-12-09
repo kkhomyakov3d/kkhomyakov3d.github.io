@@ -11,6 +11,9 @@ description: Random graphics & game programming notes
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars0.githubusercontent.com/u/6911799?s=460&v=4
 
+# Date format used in post headers
+date_format: "%b %-d, %Y"
+
 #
 # Flags below are optional
 #
