@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Konstantin Khomyakov. I am a game/graphics engineer at Wargaming Moscow. Previously a developer of the WebGL engine [Blend4Web](https://www.blend4web.com/en/).
+My name is Konstantin Khomyakov. I am a gameplay/graphics engineer at Wargaming Moscow. Previously a developer of the WebGL engine [Blend4Web](https://www.blend4web.com/en/).
 
 I am passionate about everything related to computer graphics, performance, engine and game architecture.
 
