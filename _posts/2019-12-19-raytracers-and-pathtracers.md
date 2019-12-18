@@ -11,7 +11,7 @@ The list will be updated from time to time, any additions are welcome.
 - Peter Shirley's Weekend Ray Tracing Series ([github](https://github.com/RayTracing/raytracing.github.io))
 - Mutsuba Physically Based Renderer ([github](https://github.com/mitsuba-renderer/mitsuba), [web](https://www.mitsuba-renderer.org/))
 - Nori ([github](https://github.com/wjakob/nori), [web](https://wjakob.github.io/nori/))
-- Aras Pranckevičius's DirectX11 C++/C#/Unity toy path tracer ([github](https://github.com/aras-p/ToyPathTracer), [web](http://aras-p.info/blog/2018/03/28/Daily-Pathtracer-Part-0-Intro/))
+- Aras Pranckevičius's C++/C#/Unity toy path tracer ([github](https://github.com/aras-p/ToyPathTracer), [web](http://aras-p.info/blog/2018/03/28/Daily-Pathtracer-Part-0-Intro/))
 - C-Ray ([github](https://github.com/ALEXMORF/cray))
 - Simple Spectral ([github](https://github.com/imallett/simple-spectral))
 - Lighthouse2 ([github](https://github.com/jbikker/lighthouse2))
