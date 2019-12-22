@@ -9,7 +9,7 @@ The list will be updated from time to time, any additions are welcome.
 
 - Blender :wink: ([web](https://wiki.blender.org/wiki/Building_Blender), [online_src_viewer](https://developer.blender.org/diffusion/B/))
 - Peter Shirley's Weekend Ray Tracing Series ([github](https://github.com/RayTracing/raytracing.github.io))
-- Mutsuba Physically Based Renderer ([github](https://github.com/mitsuba-renderer/mitsuba), [web](https://www.mitsuba-renderer.org/))
+- Mitsuba Physically Based Renderer ([github](https://github.com/mitsuba-renderer/mitsuba), [web](https://www.mitsuba-renderer.org/))
 - Nori ([github](https://github.com/wjakob/nori), [web](https://wjakob.github.io/nori/))
 - Aras Pranckevičius's C++/C#/Unity toy path tracer ([github](https://github.com/aras-p/ToyPathTracer), [web](http://aras-p.info/blog/2018/03/28/Daily-Pathtracer-Part-0-Intro/))
 - C-Ray ([github](https://github.com/ALEXMORF/cray))
