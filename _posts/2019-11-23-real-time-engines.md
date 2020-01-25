@@ -56,5 +56,3 @@ The list will be updated from time to time, any additions are welcome.
 - Terminus Engine ([github](https://github.com/diharaw/Terminus-Engine))
 - DirectXTK ([github](https://github.com/microsoft/DirectXTK))
 - V-EZ ([github](https://github.com/GPUOpen-LibrariesAndSDKs/V-EZ))
-- GPUOpen Vulkan Memory Allocator ([github](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator))
-- GPUOpen D3D12  Memory Allocator ([github](https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator))
