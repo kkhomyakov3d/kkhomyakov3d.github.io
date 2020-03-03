@@ -1,0 +1,103 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on kkhomyakov3d</title>
+        <link>https://kkhomyakov3d.github.io/posts/</link>
+        <description>Recent content in Posts on kkhomyakov3d</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <lastBuildDate>Thu, 19 Dec 2019 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://kkhomyakov3d.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Open-Source Ray Tracers and Path Tracers</title>
+            <link>https://kkhomyakov3d.github.io/posts/open-source-ray-tracers-and-path-tracers/</link>
+            <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+            
+            <guid>https://kkhomyakov3d.github.io/posts/open-source-ray-tracers-and-path-tracers/</guid>
+            <description>As a follow-up to the previous post, here&amp;rsquo;re some open source ray/path tracers. Again, no particular order, CPU and GPU powered, static and real-time ones. May be useful for someone looking for even more graphics programming sources of inspiration :goberserk:
+The list will be updated from time to time, any additions are welcome.
+ Blender 😉 (web, online_src_viewer) Peter Shirley&amp;rsquo;s Weekend Ray Tracing Series (github) Mitsuba Physically Based Renderer (github, web) Nori (github, web) Aras Pranckevičius&amp;rsquo;s C++/C#/Unity toy path tracer (github, web) C-Ray (github) Simple Spectral (github) Lighthouse2 (github) AMD Baikal (github) Intel OSPRay (github) TheRealMJP&amp;rsquo;s DXRPathTracer (github)  </description>
+            <content type="html"><![CDATA[<p>As a follow-up to the <a href="https://kkhomyakov3d.github.io/real-time-engines/">previous post</a>, here&rsquo;re some open source ray/path tracers. Again, no particular order, CPU and GPU powered, static and real-time ones. May be useful for someone looking for even more graphics programming sources of inspiration :goberserk:</p>
+<p>The list will be updated from time to time, any additions are welcome.</p>
+<ul>
+<li>Blender 😉 (<a href="https://wiki.blender.org/wiki/Building_Blender">web</a>, <a href="https://developer.blender.org/diffusion/B/">online_src_viewer</a>)</li>
+<li>Peter Shirley&rsquo;s Weekend Ray Tracing Series (<a href="https://github.com/RayTracing/raytracing.github.io">github</a>)</li>
+<li>Mitsuba Physically Based Renderer (<a href="https://github.com/mitsuba-renderer/mitsuba">github</a>, <a href="https://www.mitsuba-renderer.org/">web</a>)</li>
+<li>Nori (<a href="https://github.com/wjakob/nori">github</a>, <a href="https://wjakob.github.io/nori/">web</a>)</li>
+<li>Aras Pranckevičius&rsquo;s C++/C#/Unity toy path tracer (<a href="https://github.com/aras-p/ToyPathTracer">github</a>, <a href="http://aras-p.info/blog/2018/03/28/Daily-Pathtracer-Part-0-Intro/">web</a>)</li>
+<li>C-Ray (<a href="https://github.com/ALEXMORF/cray">github</a>)</li>
+<li>Simple Spectral (<a href="https://github.com/imallett/simple-spectral">github</a>)</li>
+<li>Lighthouse2 (<a href="https://github.com/jbikker/lighthouse2">github</a>)</li>
+<li>AMD Baikal (<a href="https://github.com/GPUOpen-LibrariesAndSDKs/RadeonProRender-Baikal">github</a>)</li>
+<li>Intel OSPRay (<a href="https://github.com/ospray/ospray">github</a>)</li>
+<li>TheRealMJP&rsquo;s DXRPathTracer (<a href="https://github.com/TheRealMJP/DXRPathTracer">github</a>)</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Open-Source Real-Time Engines and Libs</title>
+            <link>https://kkhomyakov3d.github.io/posts/open-source-real-time-engines-and-libs/</link>
+            <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
+            
+            <guid>https://kkhomyakov3d.github.io/posts/open-source-real-time-engines-and-libs/</guid>
+            <description>Here is a small collection of open source engines and helper libs related to real-time rendering I&amp;rsquo;ve found for self-learning purposes. No particular order, veterans of the industry mixed with hobby projects. May be useful for someone looking for graphics programming sources of inspiration :feelsgood:
+The list will be updated from time to time, any additions are welcome.
+ Github Game Engines Collection (github) Unreal Engine (web) Godot Engine (github) OGRE (github) OGRE Next (github) The Forge (github) Sokol (github) Oryol (github, web) Wicked Engine (github) Torque 3D (github) Google Filament (github) bgfx (github) NVIDIA Falcor (github) Microsoft DirectX MiniEngine (+Samples) (github) Microsoft DirectX MiniEngine (+Samples) (github) vxr Engine (github) MAGE - Matthias Advanced Game Engine (github) CSharpRenderer by Bart Wronski (github) Granite (github) aer (github) taichi (github) AnKi 3D Vulkan Engine (web, github) Vulkan-glTF-PBR (github) HRE : Clustered Forward/Deferred OpenGL Rendering Engine (github) PowerVR Native SDK (github) Banshee Engine (github) AMD Cauldron DirectX12/Vulkan Framework (github) AMD Anvil Vulkan Framework (github) Matt Pettineo&amp;rsquo;s (aka MJP) Sample Apps (github1, github2) Dilgent Engine (github) Polyscope (github) Wolf Engine (github) Spartan Engine (github) Neothyne (github) Vulkan LightweightGraphicCore (github) Intrinsic Vulkan Engine (github) bae (github) Ravine (github) GLOV (github) David Grosman&amp;rsquo;s Vulkan HybridRenderer (github) Neil Forbes-Richardson&amp;rsquo;s Engine (github) Brokkr Vulkan Framewrork (github) Vulki (github) Pegasus Engine (github) Vulkan Goma Engine (github) Nimble (github) Terminus Engine (github) DirectXTK (github) V-EZ (github)  </description>
+            <content type="html"><![CDATA[<p>Here is a small collection of open source engines and helper libs related to real-time rendering I&rsquo;ve found for self-learning purposes. No particular order, veterans of the industry mixed with hobby projects. May be useful for someone looking for graphics programming sources of inspiration :feelsgood:</p>
+<p>The list will be updated from time to time, any additions are welcome.</p>
+<ul>
+<li>Github Game Engines Collection (<a href="https://github.com/collections/game-engines">github</a>)</li>
+<li>Unreal Engine (<a href="https://www.unrealengine.com/en-US/ue4-on-github">web</a>)</li>
+<li>Godot Engine (<a href="https://github.com/godotengine/godot">github</a>)</li>
+<li>OGRE (<a href="https://github.com/OGRECave/ogre">github</a>)</li>
+<li>OGRE Next (<a href="https://github.com/OGRECave/ogre-next">github</a>)</li>
+<li>The Forge (<a href="https://github.com/ConfettiFX/The-Forge">github</a>)</li>
+<li>Sokol (<a href="https://github.com/floooh/sokol">github</a>)</li>
+<li>Oryol (<a href="https://github.com/floooh/oryol">github</a>, <a href="https://floooh.github.io/oryol/">web</a>)</li>
+<li>Wicked Engine (<a href="https://github.com/turanszkij/WickedEngine">github</a>)</li>
+<li>Torque 3D (<a href="https://github.com/GarageGames/Torque3D">github</a>)</li>
+<li>Google Filament (<a href="https://github.com/google/filament">github</a>)</li>
+<li>bgfx (<a href="https://github.com/bkaradzic/bgfx/">github</a>)</li>
+<li>NVIDIA Falcor (<a href="https://github.com/NVIDIAGameWorks/Falcor">github</a>)</li>
+<li>Microsoft DirectX MiniEngine (+Samples) (<a href="https://github.com/Microsoft/DirectX-Graphics-Samples">github</a>)</li>
+<li>Microsoft DirectX MiniEngine (+Samples) (<a href="https://github.com/Microsoft/DirectX-Graphics-Samples">github</a>)</li>
+<li>vxr Engine (<a href="https://github.com/avilapa/vxr">github</a>)</li>
+<li>MAGE - Matthias Advanced Game Engine (<a href="https://github.com/matt77hias/MAGE">github</a>)</li>
+<li>CSharpRenderer by Bart Wronski (<a href="https://github.com/bartwronski/CSharpRenderer">github</a>)</li>
+<li>Granite (<a href="https://github.com/Themaister/Granite">github</a>)</li>
+<li>aer (<a href="https://github.com/tcoppex/aer-engine">github</a>)</li>
+<li>taichi (<a href="https://github.com/yuanming-hu/taichi">github</a>)</li>
+<li>AnKi 3D Vulkan Engine (<a href="http://anki3d.org/">web</a>, <a href="https://github.com/godlikepanos/anki-3d-engine">github</a>)</li>
+<li>Vulkan-glTF-PBR (<a href="https://github.com/SaschaWillems/Vulkan-glTF-PBR">github</a>)</li>
+<li>HRE : Clustered Forward/Deferred OpenGL Rendering Engine  (<a href="https://github.com/Angelo1211/HybridRenderingEngine">github</a>)</li>
+<li>PowerVR Native SDK (<a href="https://github.com/powervr-graphics/Native_SDK">github</a>)</li>
+<li>Banshee Engine (<a href="https://github.com/BearishSun/BansheeEngine">github</a>)</li>
+<li>AMD Cauldron DirectX12/Vulkan Framework (<a href="https://github.com/GPUOpen-LibrariesAndSDKs/Cauldron">github</a>)</li>
+<li>AMD Anvil Vulkan Framework (<a href="https://github.com/GPUOpen-LibrariesAndSDKs/Anvil">github</a>)</li>
+<li>Matt Pettineo&rsquo;s (aka MJP) Sample Apps (<a href="https://github.com/TheRealMJP/Shadows">github1</a>, <a href="https://github.com/TheRealMJP/BakingLab">github2</a>)</li>
+<li>Dilgent Engine (<a href="https://github.com/DiligentGraphics/DiligentEngine">github</a>)</li>
+<li>Polyscope (<a href="https://github.com/nmwsharp/polyscope">github</a>)</li>
+<li>Wolf Engine (<a href="https://github.com/WolfEngine/Wolf.Engine">github</a>)</li>
+<li>Spartan Engine (<a href="https://github.com/PanosK92/SpartanEngine">github</a>)</li>
+<li>Neothyne (<a href="https://github.com/graphitemaster/neothyne">github</a>)</li>
+<li>Vulkan LightweightGraphicCore (<a href="https://github.com/alelievr/LightweightGraphicCore">github</a>)</li>
+<li>Intrinsic Vulkan Engine (<a href="https://github.com/begla/Intrinsic">github</a>)</li>
+<li>bae (<a href="https://github.com/BruOp/bae">github</a>)</li>
+<li>Ravine (<a href="https://github.com/gabriellanzer/Ravine">github</a>)</li>
+<li>GLOV (<a href="https://github.com/sawickiap/GLOV">github</a>)</li>
+<li>David Grosman&rsquo;s Vulkan HybridRenderer (<a href="https://github.com/davidgrosman/FinalProject-HybridRenderer">github</a>)</li>
+<li>Neil Forbes-Richardson&rsquo;s Engine (<a href="https://github.com/neilogd/Engine">github</a>)</li>
+<li>Brokkr Vulkan Framewrork (<a href="https://github.com/fsole/brokkr">github</a>)</li>
+<li>Vulki (<a href="https://github.com/aschrein/Vulki">github</a>)</li>
+<li>Pegasus Engine (<a href="https://github.com/PegasusEngine/Pegasus">github</a>)</li>
+<li>Vulkan Goma Engine (<a href="https://github.com/AttilioProvenzano/goma-engine">github</a>)</li>
+<li>Nimble (<a href="https://github.com/diharaw/Nimble">github</a>)</li>
+<li>Terminus Engine (<a href="https://github.com/diharaw/Terminus-Engine">github</a>)</li>
+<li>DirectXTK (<a href="https://github.com/microsoft/DirectXTK">github</a>)</li>
+<li>V-EZ (<a href="https://github.com/GPUOpen-LibrariesAndSDKs/V-EZ">github</a>)</li>
+</ul>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
