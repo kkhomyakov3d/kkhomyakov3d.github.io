@@ -4,10 +4,6 @@
     <title>Categories on kkhomyakov3d</title>
     <link>https://kkhomyakov3d.github.io/categories/</link>
     <description>Recent content in Categories on kkhomyakov3d</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://kkhomyakov3d.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://kkhomyakov3d.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

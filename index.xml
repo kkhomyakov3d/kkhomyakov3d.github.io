@@ -5,11 +5,7 @@
     <link>https://kkhomyakov3d.github.io/</link>
     <description>Recent content on kkhomyakov3d</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 19 Dec 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://kkhomyakov3d.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 19 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://kkhomyakov3d.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Open-Source Ray Tracers and Path Tracers</title>
       <link>https://kkhomyakov3d.github.io/posts/open-source-ray-tracers-and-path-tracers/</link>
