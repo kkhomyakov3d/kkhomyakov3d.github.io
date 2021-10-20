@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:Konstantin Khomyakov]">
+<meta name="description" content="As a follow-up to the previous post, here&amp;rsquo;re some open source ray/path tracers. Again, no particular order, CPU and GPU powered, static and real-time ones. May be useful for someone looking for even more graphics programming sources of inspiration :goberserk:
+The list will be updated from time to time, any additions are welcome.
+ Blender 😉 (web, online_src_viewer) Peter Shirley&amp;rsquo;s Weekend Ray Tracing Series (github) Mitsuba Physically Based Renderer (github, web) Nori (github, web) Aras Pranckevičius&amp;rsquo;s C&#43;&#43;/C#/Unity toy path tracer (github, web) C-Ray (github) Simple Spectral (github) Lighthouse2 (github) AMD Baikal (github) Intel OSPRay (github) TheRealMJP&amp;rsquo;s DXRPathTracer (github)  " />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#fafafa" />
+<link rel="canonical" href="https://kkhomyakov3d.github.io/posts/open-source-ray-tracers-and-path-tracers/" />
+
+
+    <title>
+        
+            Open-Source Ray Tracers and Path Tracers :: kkhomyakov3d  — blog
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://kkhomyakov3d.github.io/main.min.7617270949818a68231bedd45df00d62686a3e1254409209806c6a3698f4e6ff.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://kkhomyakov3d.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://kkhomyakov3d.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://kkhomyakov3d.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://kkhomyakov3d.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://kkhomyakov3d.github.io/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://kkhomyakov3d.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+<meta itemprop="name" content="Open-Source Ray Tracers and Path Tracers">
+<meta itemprop="description" content="As a follow-up to the previous post, here&rsquo;re some open source ray/path tracers. Again, no particular order, CPU and GPU powered, static and real-time ones. May be useful for someone looking for even more graphics programming sources of inspiration :goberserk:
+The list will be updated from time to time, any additions are welcome.
+ Blender 😉 (web, online_src_viewer) Peter Shirley&rsquo;s Weekend Ray Tracing Series (github) Mitsuba Physically Based Renderer (github, web) Nori (github, web) Aras Pranckevičius&rsquo;s C&#43;&#43;/C#/Unity toy path tracer (github, web) C-Ray (github) Simple Spectral (github) Lighthouse2 (github) AMD Baikal (github) Intel OSPRay (github) TheRealMJP&rsquo;s DXRPathTracer (github)  "><meta itemprop="datePublished" content="2019-12-19T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2019-12-19T00:00:00+00:00" />
+<meta itemprop="wordCount" content="97"><meta itemprop="image" content="https://kkhomyakov3d.github.io"/>
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://kkhomyakov3d.github.io"/>
+
+<meta name="twitter:title" content="Open-Source Ray Tracers and Path Tracers"/>
+<meta name="twitter:description" content="As a follow-up to the previous post, here&rsquo;re some open source ray/path tracers. Again, no particular order, CPU and GPU powered, static and real-time ones. May be useful for someone looking for even more graphics programming sources of inspiration :goberserk:
+The list will be updated from time to time, any additions are welcome.
+ Blender 😉 (web, online_src_viewer) Peter Shirley&rsquo;s Weekend Ray Tracing Series (github) Mitsuba Physically Based Renderer (github, web) Nori (github, web) Aras Pranckevičius&rsquo;s C&#43;&#43;/C#/Unity toy path tracer (github, web) C-Ray (github) Simple Spectral (github) Lighthouse2 (github) AMD Baikal (github) Intel OSPRay (github) TheRealMJP&rsquo;s DXRPathTracer (github)  "/>
+
+
+
+
+
+    <meta property="article:published_time" content="2019-12-19 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <span class="header__left">
+            <a href="https://kkhomyakov3d.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">kkhomyakov3d</span>
+            <span class="logo__cursor" style=
+                  "
+                   background-color:#c600b2;
+                   animation-duration:7s;">
+            </span>
+        
+    </div>
+</a>
+
+            <span class="header__social">
+                &nbsp; <a href="https://twitter.com/kkhomyakov3d" target="_blank" rel="noopener" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>&nbsp; <a href="https://github.com/kkhomyakov3d" target="_blank" rel="noopener" title="Github"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>&nbsp;
+
+            </span>
+        </span>
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://kkhomyakov3d.github.io/about/">About</a></li><li><a href="https://kkhomyakov3d.github.io/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>One minute
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title">
+                <a href="https://kkhomyakov3d.github.io/posts/open-source-ray-tracers-and-path-tracers/">Open-Source Ray Tracers and Path Tracers</a>
+            </h1>
+
+            
+
+            <div class="post-content">
+                <p>As a follow-up to the <a href="https://kkhomyakov3d.github.io/real-time-engines/">previous post</a>, here&rsquo;re some open source ray/path tracers. Again, no particular order, CPU and GPU powered, static and real-time ones. May be useful for someone looking for even more graphics programming sources of inspiration :goberserk:</p>
+<p>The list will be updated from time to time, any additions are welcome.</p>
+<ul>
+<li>Blender 😉 (<a href="https://wiki.blender.org/wiki/Building_Blender">web</a>, <a href="https://developer.blender.org/diffusion/B/">online_src_viewer</a>)</li>
+<li>Peter Shirley&rsquo;s Weekend Ray Tracing Series (<a href="https://github.com/RayTracing/raytracing.github.io">github</a>)</li>
+<li>Mitsuba Physically Based Renderer (<a href="https://github.com/mitsuba-renderer/mitsuba">github</a>, <a href="https://www.mitsuba-renderer.org/">web</a>)</li>
+<li>Nori (<a href="https://github.com/wjakob/nori">github</a>, <a href="https://wjakob.github.io/nori/">web</a>)</li>
+<li>Aras Pranckevičius&rsquo;s C++/C#/Unity toy path tracer (<a href="https://github.com/aras-p/ToyPathTracer">github</a>, <a href="http://aras-p.info/blog/2018/03/28/Daily-Pathtracer-Part-0-Intro/">web</a>)</li>
+<li>C-Ray (<a href="https://github.com/ALEXMORF/cray">github</a>)</li>
+<li>Simple Spectral (<a href="https://github.com/imallett/simple-spectral">github</a>)</li>
+<li>Lighthouse2 (<a href="https://github.com/jbikker/lighthouse2">github</a>)</li>
+<li>AMD Baikal (<a href="https://github.com/GPUOpen-LibrariesAndSDKs/RadeonProRender-Baikal">github</a>)</li>
+<li>Intel OSPRay (<a href="https://github.com/ospray/ospray">github</a>)</li>
+<li>TheRealMJP&rsquo;s DXRPathTracer (<a href="https://github.com/TheRealMJP/DXRPathTracer">github</a>)</li>
+</ul>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>97 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-12-19</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+
+                    
+                        <span class="button next">
+                            <a href="https://kkhomyakov3d.github.io/posts/open-source-real-time-engines-and-libs/">
+                                <span class="button__text">Open-Source Real-Time Engines and Libs</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+
+        <div id="comments"><script src="https://utteranc.es/client.js"
+    repo="kkhomyakov3d/kkhomyakov3d.github.io"
+    issue-term="pathname"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
+</script>
+</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+                <span><a href="https://kkhomyakov3d.github.io">Konstantin Khomyakov</a></span>
+            
+            <span> <a href="https://kkhomyakov3d.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://kkhomyakov3d.github.io/bundle.min.08ccaf9cef8b4e0ebd0b0158e66a7bfc0ddbb2194cdb0099e8814ddb89cc7628b27b1158846564e6e03d9ffc5f4d1bc7dfc274d359f9408d1c63d73a3f7332e9.js" integrity="sha512-CMyvnO&#43;LTg69CwFY5mp7/A3bshlM2wCZ6IFN24nMdiiyexFYhGVk5uA9n/xfTRvH38J001n5QI0cY9c6P3My6Q=="></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-147543763-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+    </body>
+</html>
