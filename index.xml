@@ -5,7 +5,22 @@
     <link>https://kkhomyakov3d.github.io/</link>
     <description>Recent content on kkhomyakov3d</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 19 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://kkhomyakov3d.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jan 2026 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kkhomyakov3d.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://kkhomyakov3d.github.io/about/</link>
+      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://kkhomyakov3d.github.io/about/</guid>
+      <description>I am Konstantin Khomyakov, a software engineer at Unity, working on the DirectX rendering backend, with past experience at Varjo, Wargaming, and Blend4Web.
+I build performant and scalable systems, focusing on C++, GPU programming, VR/MR/XR, and networking.
+This site is my collection of small, useful notes. Technologies behind the website: Hugo + modified Hello Friend NG theme.</description>
+    </item>
+    
     <item>
       <title>Open-Source Ray Tracers and Path Tracers</title>
       <link>https://kkhomyakov3d.github.io/posts/open-source-ray-tracers-and-path-tracers/</link>
@@ -26,18 +41,6 @@ The list will be updated from time to time, any additions are welcome.
       <description>Here is a small collection of open source engines and helper libs related to real-time rendering I&amp;rsquo;ve found for self-learning purposes. No particular order, veterans of the industry mixed with hobby projects. May be useful for someone looking for graphics programming sources of inspiration :feelsgood:
 The list will be updated from time to time, any additions are welcome.
  Unreal Engine (web) Godot Engine (github) OGRE (github) OGRE Next (github) The Forge (github) Sokol (github) Oryol (github, web) Wicked Engine (github) Torque 3D (github) Google Filament (github) bgfx (github) NVIDIA Falcor (github) Microsoft DirectX MiniEngine (+Samples) (github) Microsoft DirectX MiniEngine (+Samples) (github) vxr Engine (github) MAGE - Matthias Advanced Game Engine (github) CSharpRenderer by Bart Wronski (github) Granite (github) aer (github) taichi (github) AnKi 3D Vulkan Engine (web, github) Vulkan-glTF-PBR (github) HRE : Clustered Forward/Deferred OpenGL Rendering Engine (github) PowerVR Native SDK (github) Banshee Engine (github) AMD Cauldron DirectX12/Vulkan Framework (github) AMD Anvil Vulkan Framework (github) Matt Pettineo&amp;rsquo;s (aka MJP) Sample Apps (github1, github2) Dilgent Engine (github) Polyscope (github) Wolf Engine (github) Spartan Engine (github) Neothyne (github) Vulkan LightweightGraphicCore (github) Intrinsic Vulkan Engine (github) bae (github) Ravine (github) GLOV (github) David Grosman&amp;rsquo;s Vulkan HybridRenderer (github) Neil Forbes-Richardson&amp;rsquo;s Engine (github) Brokkr Vulkan Framewrork (github) Vulki (github) Pegasus Engine (github) Vulkan Goma Engine (github) Nimble (github) Terminus Engine (github) DirectXTK (github) V-EZ (github)  </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://kkhomyakov3d.github.io/about/</link>
-      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kkhomyakov3d.github.io/about/</guid>
-      <description>My name is Konstantin Khomyakov. I am a generalist game engineer with a particular focus on graphics programming at Wargaming Moscow. Previously a developer of the WebGL engine at Blend4Web.
-I am passionate about everything related to computer graphics, performance, engine and game architecture.
-This site is a blog with small notes and reminders I&amp;rsquo;ve found useful and want to share with the community.
-Technologies behind the website: Hugo + modified Hello Friend NG theme.</description>
     </item>
     
   </channel>
